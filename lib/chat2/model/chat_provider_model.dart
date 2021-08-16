@@ -272,7 +272,9 @@ class ChatLogType {
         chatAttachment = ChatAttachment.fromJson(map['chatAttachment']);
         break;
       case LOG_TYPE.MEMBER_JOIN:
+        break;
       case LOG_TYPE.MEMBER_LEAVE:
+        break;
       case LOG_TYPE.MESSAGE:
         chatMessage = ChatMessage.fromJson(map['chatMessage']);
         break;
